@@ -4,8 +4,6 @@
   "homepage": "http://melquis772.github.io/ms-real-estate",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,7 +15,6 @@
     "@emotion/styled": "^11.9.3",
     "axios": "^0.27.2",
     "framer-motion": "^6.5.1",
-    "gh-pages": "^4.0.0",
     "millify": "^5.0.0",
     "next": "12.2.3",
     "nprogress": "^0.2.0",
